@@ -2,6 +2,4 @@ Job:
   only:
     - master
   script:
-    - sudo -i
-    - cd /home/
-    - touch testt.txt
+    - touch test.txt

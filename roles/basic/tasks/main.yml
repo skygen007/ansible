@@ -1,0 +1,6 @@
+---
+- name: "Installing VIM"
+  apt: pkg=vim state=installed
+
+- name: "Git"
+  apt: pkg=git state=installed
